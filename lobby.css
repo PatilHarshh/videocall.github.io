@@ -1,0 +1,82 @@
+body{
+    background:  url('icon/cosmic-doodle-nz-1360x768.jpg') no-repeat  ;
+    background-size: cover;
+    color: #fff;
+}
+
+#form-container{
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: #262625;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#form__container__header{
+    border-radius: 10px 10px 0 0;
+    padding: 30px;
+    text-align: center;
+    background-color: #363739;
+    margin: 0;
+    font-size: 18px;
+    font-size: 300;
+    line-height: 0;
+    
+}
+#form__content__wrapper{
+    padding: 20px;
+}
+input{
+    box-sizing: border-box;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 20px;
+    font-size: 15px;
+    background-color: #3f434a;
+    margin-top: 32px;
+}
+input[type='submit']{
+    background-color: #9c4aba;
+}
+#loader{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.spinner{
+    width: 10em;
+    height: 10em;
+    border-top: 1em solid #1Aff00;
+    border-right: 1em solid transparent;
+    border-radius: 50%;
+    margin: auto;
+    animation: spinner 2s linear infinite;
+    z-index: 999999;
+}
+.circle{
+    width: 1em;
+    height: 1em;
+    background-color: #1Aff00;
+    border-radius: 50%;
+    margin-left: 8.5em;
+    margin-top: 0.5em;
+}
+
+@keyframes spinner {
+    100%{
+        transform: rotate(360deg);
+    }
+}
