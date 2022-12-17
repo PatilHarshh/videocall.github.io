@@ -80,3 +80,10 @@ input[type='submit']{
         transform: rotate(360deg);
     }
 }
+@media screen and (max-width: 600px) {
+    body{
+        background:  url('icon/cosmic-doodle-nz-1360x768.jpg') no-repeat  ;
+        height: 2px;
+        color: #fff;
+    }
+}
