@@ -1,4 +1,4 @@
-let App_ID = "f75c8a3f67414db09275bf54e8266b2c"
+let App_ID = "useYourID"
 
 let token = null;
 let uid =  String(Math.floor(Math.random() * 10000))                                                          //User Id
